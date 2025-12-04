@@ -8,10 +8,26 @@
 # My module configuration
 ########################################
 #
-#    MyModule.Enable
+#    poa.enableSkillTransfer
 #        Description: Enable my module and print "Hello World" message at server start
 #        Default:     0 - Disabled
 #                     1 - Enabled
 #
 
-MyModule.Enable = 1
+poa.enableSkillTransfer = 1
+
+#
+#    poa.message.id
+#        Description: ID of the acore_string table, check in the SQL folder.
+#        Default:     45001
+#
+
+poa.message.id = 45001
+
+#
+#    poa.enableLearnSpells
+#        Description: Enable the automatic learning of tradeskill spells and recipes
+#        Default:     45001
+#
+
+poa.enableLearnSpells = 1
